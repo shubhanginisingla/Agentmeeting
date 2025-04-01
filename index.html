@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AgentMeeting</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.svg" rel="icon">
+  <link href="img/apple-touch-icon.svg" rel="apple-touch-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+<style>
+
+</style>
+</head>
+
+<body>
+  <!--==========================
+  Header
+  ============================-->
+
+  <header role="banner" class="header-section" id="header">    
+      <!-- Top Navigation -->
+      <nav class="background-transparent full-width sticky">   
+		<div class="container"> 	  
+        <div class="row align-items-center justify-content-between"> 
+          <!-- mobile version logo -->              
+		   <a href="javascript:void(0)" class="toggle toggle--nav toggle--nav-js">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 515.555 515.555"><path d="m303.347 18.875c25.167 25.167 25.167 65.971 0 91.138s-65.971 25.167-91.138 0-25.167-65.971 0-91.138c25.166-25.167 65.97-25.167 91.138 0"/><path d="m303.347 212.209c25.167 25.167 25.167 65.971 0 91.138s-65.971 25.167-91.138 0-25.167-65.971 0-91.138c25.166-25.167 65.97-25.167 91.138 0"/><path d="m303.347 405.541c25.167 25.167 25.167 65.971 0 91.138s-65.971 25.167-91.138 0-25.167-65.971 0-91.138c25.166-25.167 65.97-25.167 91.138 0"/></svg>
+			</a>               
+			<!-- logo -->
+		  <ul class="logo-menu">
+			<a href="index.html" class="logo">
+			  <!-- Logo White Version -->
+			  <h2><img src="img/favicon.svg" alt="" /><span>AgentMeeting</span></h2>
+			  
+			</a>
+		  </ul>
+          
+          <!-- left menu items -->
+          <div class="top-nav main-menu-left">
+		  <span class="overlay overlay--nav toggle--nav-js is-active"></span>
+             <ul class="menu top-ul chevron">
+                <li><a href="javascript:void(0)">Buy</a></li>
+                <li><a href="javascript:void(0)">Sell</a></li>
+                <li><a href="javascript:void(0)">Rent</a></li>
+                <li><a href="javascript:void(0)">Home Loan</a></li>
+				<li class="mob-block"><a href="javascript:void(0)">Agents</a></li>
+             </ul>
+          </div>
+         
+          
+          
+          <!-- right menu items -->
+          <div class="top-nav main-menu-right">
+             <ul class="top-ul chevron">
+                <li class="desk-block"><a href="agents.html">Agents</a></li>
+                <li class="sign-in">
+					<a href="javascript:void(0)" >Sign In</a>
+					<div class="login_nav_drop">
+						<div class="d-flex flex-column align-items-center justify-content-center ls_div">
+							<div class="section-header mb-2">
+								
+								<h3 class="mb-0">Welcome to AgentMeeting</h3>
+							</div>		
+							<div class="logout_menu">
+								<em><img src="img/icons/close_icon.svg" alt="" width="20" /></em>
+							</div>
+							<ul class="nav nav-tabs ls_btn" id="myTab" role="tablist">
+							  <li class="nav-item w-50">
+								<button class="nav-link active btn btn-md btn-primary" id="login_tab" data-toggle="tab" href="#login-tab" role="tab" aria-controls="login-tab" aria-selected="true">Login</button>
+							  </li>
+							   <li class="nav-item w-50">
+								<button class="nav-link btn btn-md btn-primary" id="sign_up" data-toggle="tab" href="#sign-up" role="tab" aria-controls="sign-up" aria-selected="true">New User</button>
+							  </li>
+							 
+							</ul>
+						
+							<div class="tab-content w-100" id="myTabContent">
+								<div class="tab-pane fade show active" id="login-tab" role="tabpanel" aria-labelledby="login-tab">
+									<div class="text-left col-md-12 px-0 mt-1 ">
+										<form data-toggle="validator" role="form" method="post" action="#">
+											<div class="row">
+												<div class="col-md-12">
+													<div class="form-group">
+														<label>Email</label>
+														<div class="input-group">
+															
+															<input type="text" class="form-control" name="login_email" placeholder="Enter Email" pattern="" title="" required="">
+															<div class="input-group-prepend">
+																<span class="input-group-text"><em><img src="img/icons/ic_id.png" alt="" /></em></span>
+															</div>
+														</div>
+														<div class="help-block with-errors text-danger"></div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="form-group">
+														<label>Password</label>
+														<div class="input-group">
+															
+															<input type="password" name="login_password" class="form-control" placeholder="Enter Password" pattern="" title="" required="">
+															<div class="input-group-prepend">
+																<span class="input-group-text"><em><img src="img/icons/ic_password.png" alt="" /></em></span>
+															</div>
+														</div>
+														<div class="help-block with-errors text-danger"></div>
+													</div>
+												</div>
+											</div>
+											
+											<div class="row">
+												<div class="col-md-12">
+													<input type="submit" class="btn btn-primary btn-lg btn-block" value="Sign In" name="submit">
+												</div>
+											</div>
+											<div class="row mt-3">
+											<div class="col-md-12 text-center">
+												<span><a href="javascript:void(0)">Forgot your Password?</a></span>
+												</div>
+											</div>
+											
+										</form>
+											
+									</div>
+								</div>
+								  
+								<div class="tab-pane fade" id="sign-up" role="tabpanel" aria-labelledby="sign-up">
+									<div class="text-left col-md-12 px-0 mt-1 " >
+										<form data-toggle="validator" role="form" method="post" action="#">
+											<div class="row">
+												<div class="col-md-12">
+													<div class="form-group">
+														<label>Email</label>
+														<div class="input-group">
+															
+															<input type="text" class="form-control" name="login_email" placeholder="Enter Email" pattern="" title="" required="">
+															<div class="input-group-prepend">
+																<span class="input-group-text"><em><img src="img/icons/ic_id.png" alt="" /></em></span>
+															</div>
+														</div>
+														<div class="help-block with-errors text-danger"></div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<div class="form-group">
+														<label>Password</label>
+														<div class="input-group">												
+															<input type="password" name="login_password" class="form-control" placeholder="Enter Password" pattern="" title="" required="">
+															<div class="input-group-prepend">
+																<span class="input-group-text"><em><img src="img/icons/ic_password.png" alt="" /></em></span>
+															</div>
+														</div>
+														<div class="help-block with-errors text-danger"></div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12 custom-checkbox">
+													<div class="form-group">
+													  <input type="checkbox" id="At least 8 characters">
+													  <label for="At least 8 characters">At least 8 characters</label>
+													</div>
+												</div>
+												<div class="col-md-12 custom-checkbox">
+													<div class="form-group">
+													  <input type="checkbox" id="Mix of letters and numbers">
+													  <label for="Mix of letters and numbers">Mix of letters and numbers</label>
+													</div>
+												</div>
+												<div class="col-md-12 custom-checkbox">
+													<div class="form-group">
+													  <input type="checkbox" id="Mix of wppercase and lowercase letters">
+													  <label for="Mix of wppercase and lowercase letters">Mix of wppercase and lowercase letters</label>
+													</div>
+												</div>
+												<div class="col-md-12 custom-checkbox">
+													<div class="form-group">
+													  <input type="checkbox" id="Contains a special character">
+													  <label for="Contains a special character">Contains a special character</label>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12">
+													<input type="submit" class="btn btn-primary btn-lg btn-block" value="Sign In" name="submit">
+												</div>
+											</div>
+											<div class="row mt-3">
+											<div class="col-md-12 text-center">
+												<span><a href="javascript:void(0)">Forgot your Password?</a></span>
+												</div>
+											</div>
+											
+										</form>
+										
+									</div> 
+								</div>
+							  
+							  
+								<div class="m_menu">
+									<div class="login-or">
+									<hr class="hr-or">
+									<span class="span-or">or</span>
+								  </div>
+								  <div class="section-header my-3">						
+										<h3>Sign up with Social Media</h3>
+									</div>	
+								
+								
+									<div class="row mb-3 mx-auto">
+										  <a href="javascript:void(0)" class="btn btn-outline-danger btn-lg btn-block d-flex align-items-center justify-content-center">
+										  <em><img src="img/icons/icgoogle.png" alt="" /></em>
+										  <span class="ml-2">Sign Up using Google</span></a>
+										
+									</div>
+									<div class="row mb-3 mx-auto">
+										  <a href="javascript:void(0)" class="btn btn-outline-primary btn-lg btn-block d-flex align-items-center justify-content-center">
+										  <em><img src="img/icons/ic_fb.png" alt="" /></em>
+										  <span>Sign Up using Facebook</span></a>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</li>
+                <li><a href="javascript:void(0)"><i><img src="img/icons/call.png" alt="" width="15px"/></i> <span>866 888 7777</span></a></li>
+             </ul> 
+			 
+          </div>
+        </div>
+		</div>
+      </nav>
+    </header>
+  
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+	<div class="banner-image">
+          <img src="img/icons/banner-img.jpg" alt="" class="img-fluid">
+        </div>
+    <div class="container search-container">
+          <h2>The Future of Real Estate Agency</h2>  
+		<form class="">
+		
+			<input type="text" id="search-bar" placeholder="Enter an address, neighbourhood, city, or ZIP code">
+			<a href="javascript:void(0)" class="search-icon"><i class="fa fa-search"></i></a>
+		</form>
+      </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    
+    <!--==========================
+      Services Section
+    ============================-->
+    <section class="section-bg services">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Buying or Selling? <br>Its all Start here</h3>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-duration="0.4s">
+            <div class="box">
+              <div class="icon"><i><img src="img/icons/buy-a-house.svg" alt="" class="img-fluid"/></i></div>
+              <h4 class="title"><a href="buy-a-house.html">Buy a house</a></h4>
+              <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-duration="0.6s">
+            <div class="box">
+              <div class="icon"><i><img src="img/icons/sell-a-house.svg" alt="" class="img-fluid"/></i></div>
+              <h4 class="title"><a href="how-soon-looking.html">Sell a house</a></h4>
+              <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="0.8s">
+            <div class="box">
+              <div class="icon"><i><img src="img/icons/rent-a-house.svg" alt="" class="img-fluid"/></i></div>
+              <h4 class="title"><a href="rent-a-house.html">Rent a House</a></h4>
+              <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.0s">
+            <div class="box">
+              <div class="icon"><i><img src="img/icons/quick-connect.png" alt="" class="img-fluid"/></i></div>
+              <h4 class="title"><a href="quick-connect.html">Quick Connect</a></h4>
+              <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer" class="">
+    <div class="footer-top">
+		<div class="container">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-sm-12">
+				  <div class="footer-links text-center footer-dropdown">
+					<ul class="top-nav">
+					  <li class="drop-down">
+					  <a href="javascript:void(0)">Agents</a>
+						<ul>
+						  <li><a href="javascript:void(0)">Deep Drop Down 1</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 2</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 3</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 4</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 5</a></li>
+						</ul>
+					  </li>
+					  <li class="drop-down">
+					  <a href="javascript:void(0)">Loan Offers</a>
+						<ul>
+						  <li><a href="javascript:void(0)">Deep Drop Down 1</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 2</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 3</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 4</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 5</a></li>
+						</ul>
+					  </li>
+					  <li class="drop-down">
+					  <a href="javascript:void(0)">Vendors</a>
+						<ul>
+						  <li><a href="javascript:void(0)">Deep Drop Down 1</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 2</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 3</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 4</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 5</a></li>
+						</ul>
+					  </li>
+					  <li class="drop-down">
+					  <a href="javascript:void(0)">Feedback</a>
+						<ul>
+						  <li><a href="javascript:void(0)">Deep Drop Down 1</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 2</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 3</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 4</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 5</a></li>
+						</ul>
+					  </li>
+										
+					</ul>
+				  </div>
+				  <hr>
+				  </div>
+				  
+				<div class="col-sm-12">
+				
+					<div class="footer-links text-center">
+						<ul class="top-nav">
+						  <li><a href="javascript:void(0)">About</a></li>
+						  <li><a href="javascript:void(0)">Career</a></li>
+						  <li><a href="javascript:void(0)">Terms of use</a></li>
+						  <li><a href="javascript:void(0)">Help</a></li>
+						  <li><a href="javascript:void(0)">Privacy policy</a></li>
+						</ul>
+					</div>
+					<hr>
+					<div class="text-center my-4 google_buttons">
+						<div class="row align-items-center justify-content-center">
+							
+								<a href="javascript:void(0)"><img src="img/icons/ic_google.png" alt="" class="img-fluid" width="150px" /></a>
+								<a href="javascript:void(0)"><img src="img/icons/ic_apple.png" alt="" class="img-fluid" width="150px" /></a>
+							
+						</div>
+					</div>
+					<div class="footer-link row align-items-center justify-content-center">
+						<ul class="logo-menu">
+							<a href="index.html" class="logo">
+							  <!-- Logo White Version -->
+							  <h2><img src="img/favicon.svg" alt="" /><span>AgentMeeting</span></h2>
+							  
+							</a>
+						</ul>
+						<div class="social-links text-center">
+						  
+							<p>Follow us on:</p>
+							<a href="javascript:void(0)" class="linkedin"><i class="fa fa-linkedin"></i></a>
+							<a href="javascript:void(0)" class="facebook"><i class="fa fa-facebook"></i></a>
+							<a href="javascript:void(0)" class="instagram"><i class="fa fa-instagram"></i></a>
+							<a href="javascript:void(0)" class="twitter"><i class="fa fa-twitter"></i></a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; <strong></strong> 2022 Agentmeeting
+      </div>      
+    </div>
+	<div class="footer-bottom text-center container" style="margin-top: 30px; margin-bottom: -100px;">
+		<i>
+			<img src="img/icons/footer_bottom.png" alt="" class="img-fluid"/>
+		</i>
+	</div>
+  </footer><!-- #footer -->
+
+  <a href="javascript:void(0)" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>

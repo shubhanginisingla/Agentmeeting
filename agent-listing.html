@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AgentMeeting</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.svg" rel="icon">
+  <link href="img/apple-touch-icon.svg" rel="apple-touch-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+<style>
+
+</style>
+</head>
+
+<body>
+  <!--==========================
+  Header
+  ============================-->
+
+  <header role="banner" class="header-section header-inner agent-head" id="header">    
+      <!-- Top Navigation -->
+      <nav class="background-transparent full-width sticky">   
+		<div class="container"> 	  
+        <div class="row align-items-center justify-content-between"> 
+                    
+			<!-- logo -->
+		  <ul class="logo-menu">
+			<a href="index.html" class="logo">
+			  <!-- Logo White Version -->
+			  <h2><img src="img/favicon.svg" alt="" /><span>AgentMeeting</span></h2>
+			  
+			</a>
+		  </ul>
+          
+          <!-- right menu items -->
+          <div class="top-nav main-menu-right">
+             <ul class="top-ul chevron">
+                <li><a href="javascript:void(0)">Customer Service</a></li>
+                <li class="sign-in">
+				<a href="javascript:void(0)" >Sign In</a>
+				<div class="login_nav_drop">
+					<div class="d-flex flex-column align-items-center justify-content-center ls_div">
+						<div class="section-header mb-2">
+							
+							<h3 class="mb-0">Welcome to AgentMeeting</h3>
+						</div>		
+						<div class="logout_menu">
+							<em><img src="img/icons/close_icon.svg" alt="" width="20" /></em>
+						</div>
+						<ul class="nav nav-tabs ls_btn" id="myTab" role="tablist">
+						  <li class="nav-item w-50">
+							<button class="nav-link active btn btn-md btn-primary" id="login_tab" data-toggle="tab" href="#login-tab" role="tab" aria-controls="login-tab" aria-selected="true">Login</button>
+						  </li>
+						   <li class="nav-item w-50">
+							<button class="nav-link btn btn-md btn-primary" id="sign_up" data-toggle="tab" href="#sign-up" role="tab" aria-controls="sign-up" aria-selected="true">New User</button>
+						  </li>
+						 
+						</ul>
+					
+						<div class="tab-content w-100" id="myTabContent">
+							<div class="tab-pane fade show active" id="login-tab" role="tabpanel" aria-labelledby="login-tab">
+								<div class="text-left col-md-12 px-0 mt-1 ">
+									<form data-toggle="validator" role="form" method="post" action="#">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<label>Email</label>
+													<div class="input-group">
+														
+														<input type="text" class="form-control" name="login_email" placeholder="Enter Email" pattern="" title="">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><em><img src="img/icons/ic_id.png" alt="" /></em></span>
+														</div>
+													</div>
+													<div class="help-block with-errors text-danger"></div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<label>Password</label>
+													<div class="input-group">
+														
+														<input type="password" name="login_password" class="form-control" placeholder="Enter Password" pattern="" title="" >
+														<div class="input-group-prepend">
+															<span class="input-group-text"><em><img src="img/icons/ic_password.png" alt="" /></em></span>
+														</div>
+													</div>
+													<div class="help-block with-errors text-danger"></div>
+												</div>
+											</div>
+										</div>
+										
+										<div class="row">
+											<div class="col-md-12">
+												<input type="submit" class="btn btn-primary btn-lg btn-block" value="Sign In" name="submit">
+											</div>
+										</div>
+										<div class="row mt-3">
+										<div class="col-md-12 text-center">
+											<span><a href="javascript:void(0)">Forgot your Password?</a></span>
+											</div>
+										</div>
+										
+									</form>
+										
+								</div>
+							</div>
+							  
+							<div class="tab-pane fade" id="sign-up" role="tabpanel" aria-labelledby="sign-up">
+								<div class="text-left col-md-12 px-0 mt-1 " >
+									<form>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<label>Email</label>
+													<div class="input-group">
+														
+														<input type="text" class="form-control" name="login_email" placeholder="Enter Email" pattern="" title="" required="">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><em><img src="img/icons/ic_id.png" alt="" /></em></span>
+														</div>
+													</div>
+													<div class="help-block with-errors text-danger"></div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<label>Password</label>
+													<div class="input-group">												
+														<input type="password" name="login_password" class="form-control" placeholder="Enter Password" pattern="" title="" required="">
+														<div class="input-group-prepend">
+															<span class="input-group-text"><em><img src="img/icons/ic_password.png" alt="" /></em></span>
+														</div>
+													</div>
+													<div class="help-block with-errors text-danger"></div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12 custom-checkbox">
+												<div class="form-group">
+												  <input type="checkbox" id="At least 8 characters">
+												  <label for="At least 8 characters">At least 8 characters</label>
+												</div>
+											</div>
+											<div class="col-md-12 custom-checkbox">
+												<div class="form-group">
+												  <input type="checkbox" id="Mix of letters and numbers">
+												  <label for="Mix of letters and numbers">Mix of letters and numbers</label>
+												</div>
+											</div>
+											<div class="col-md-12 custom-checkbox">
+												<div class="form-group">
+												  <input type="checkbox" id="Mix of wppercase and lowercase letters">
+												  <label for="Mix of wppercase and lowercase letters">Mix of wppercase and lowercase letters</label>
+												</div>
+											</div>
+											<div class="col-md-12 custom-checkbox">
+												<div class="form-group">
+												  <input type="checkbox" id="Contains a special character">
+												  <label for="Contains a special character">Contains a special character</label>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<input type="submit" class="btn btn-primary btn-lg btn-block" value="Sign In" name="submit">
+											</div>
+										</div>
+										<div class="row mt-3">
+										<div class="col-md-12 text-center">
+											<span><a href="javascript:void(0)">Forgot your Password?</a></span>
+											</div>
+										</div>
+										
+									</form>
+									
+								</div> 
+							</div>
+						  
+						  
+							<div class="m_menu">
+								<div class="login-or">
+								<hr class="hr-or">
+								<span class="span-or">or</span>
+							  </div>
+							  <div class="section-header my-3">						
+									<h3>Sign up with Social Media</h3>
+								</div>	
+							
+							
+								<div class="row mb-3 mx-auto">
+									  <a href="javascript:void(0)" class="btn btn-outline-danger btn-lg btn-block d-flex align-items-center justify-content-center">
+									  <em><img src="img/icons/icgoogle.png" alt="" /></em>
+									  <span class="ml-2">Sign Up using Google</span></a>
+									
+								</div>
+								<div class="row mb-3 mx-auto">
+									  <a href="javascript:void(0)" class="btn btn-outline-primary btn-lg btn-block d-flex align-items-center justify-content-center">
+									  <em><img src="img/icons/ic_fb.png" alt="" /></em>
+									  <span>Sign Up using Facebook</span></a>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</li>
+                
+                <li><a href="javascript:void(0)"><i><img src="img/icons/call.png" alt="" width="15px"/></i> <span>866 888 7777</span></a></li>
+             </ul> 
+			 
+          </div>
+        </div>
+		</div>
+      </nav>
+    </header>
+  
+  <!--==========================
+    Intro Section
+  ============================-->
+  
+  <main id="main">
+
+    
+    <!--==========================
+      Services Section
+    ============================-->
+    <section class="section-bg services">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="0.4s">
+					
+					<div class="col-lg-12 col-sm-12 wow fadeInUp mx-auto agent-listing mb-5 form-floating" data-wow-duration="0.4s">
+						<div class="box">
+							<div class="col-md-12 section-header mb-3">					
+								<h3 ><em><img src="img/icons/ic_error.png" alt="" class="img-fluid mr-2" width="25px" /></em>Please confirm your personal details</h3>
+								<p>Please reach out to your AgentMeeting Advisor at <a href="javascript:void(0)" class="d-inline-block">(800) 658-8455</a> if you have any question.
+								<span><a href="javascript:void(0)">Why do we need this?</a></span></p>
+							</div>
+							
+							<div class="col-md-12 col-sm-12 mx-auto">						
+								<form role="form" method="post" action="#">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-label-group">									
+												<span class="input-group-text"><em><img src="img/icons/ic_id.png" alt="" /></em></span>
+												<input type="text" id="firstname" class="form-control" placeholder="First Name" required>
+												<label for="firstname">First Name</label>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-label-group">									
+												<span class="input-group-text"><em><img src="img/icons/ic_id.png" alt="" /></em></span>
+												<input type="text" id="Lastname" class="form-control" placeholder="Last Name" required>
+												<label for="Lastname">Last Name</label>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-label-group">									
+												<span class="input-group-text"><em><img src="img/icons/call_btn.png" alt="" /></em></span>
+												<input type="tel" id="phonenumber" class="form-control" placeholder="(915) 568 5487" required min="10" maxlength="15">
+												<label for="phonenumber">Phone Number</label>
+												<div class="verified-number">
+													<a href="#verifynumber" class="trigger-btn" data-toggle="modal"><span>Verify Number</span></a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-label-group">									
+												<span class="input-group-text"><em><img src="img/icons/mail_btn.png" alt="" /></em></span>
+												<input type="tel" id="emailaddress" class="form-control" placeholder="ernest.harper@gmail.com" required>
+												<label for="emailaddress">Email Address</label>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12 custom-checkbox">
+												<div class="form-group">
+												  <input type="checkbox" id="characters">
+												  <label for="characters">I want financing information</label>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12 small-label text-left">
+										<div class="form-group">
+										<label>
+											<span>
+												<small>
+												By pressing Contact Agent, you agree that AgentMeeting Group and its It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum.
+												</small>
+											</span>
+										</label>
+										</div>
+										</div>
+										<div class="col-md-12 btn-outline">
+											<div class="form-group">		
+												<input type="submit" class="btn btn-primary btn-lg btn-inline-block" value="Sign In" name="submit">
+											</div>
+										</div>
+									
+									
+										<div class="m_menu">
+										<hr>
+											<div class="section-header my-3">						
+												<h3 class="text-center">Sign up with Social Media</h3>
+											</div>	
+									
+											<div class="col-md-9 col-sm-12 mx-auto" >
+												<div class="row mb-3 mx-auto">
+												<div class="col-6">
+													  <a href="javascript:void(0)" class="btn btn-outline-danger btn-lg btn-block d-flex align-items-center justify-content-center mb-2">
+													  <em><img src="img/icons/icgoogle.png" alt="" /></em>
+													  <span class="ml-2">Sign Up using Google</span></a>
+													</div>
+													<div class="col-6">
+													<a href="javascript:void(0)" class="btn btn-outline-primary btn-lg btn-block d-flex align-items-center justify-content-center mb-2">
+													  <em><img src="img/icons/ic_fb.png" alt="" /></em>
+													  <span>Sign Up using Facebook</span></a>
+													</div>
+												</div>
+												
+											</div>
+										</div>						
+									</div>
+								</form>						
+							</div>
+						</div>
+					</div>    
+					<div class="col-lg-11 col-sm-12 wow fadeInUp mx-auto agent-listing " data-wow-duration="0.4s">
+						<div class="card agent_view active mb-5">
+							<div class="col-md-12 px-0 no-gutters">					
+							<div class="row align-items-center mx-0">					
+								<div class="col-md-4 px-0">					
+									<div class="aligner">
+										<div class="container px-0">
+										  <div class="owl-carousel owl-theme img-slider">
+											<div class="item">
+											  <div>
+												<img src="img/icons/banner-img.jpg" alt="">
+											  </div>
+											  	<a href="img/icons/banner-img.jpg" class="img-overlay" data-lightbox="portfolio">
+												  <i class="fa fa-expand"></i>
+												</a>
+												<a href="https://www.youtube.com/embed/y9j-BL5ocW8" class="video-overlay" data-lightbox="portfolio">
+												  <i class="fa fa-play"></i>
+												</a>
+											</div>
+											<div class="item">
+											  <div>
+												<img src="img/icons/banner-img.jpg" alt="">
+											  </div>
+											  	<a href="img/icons/banner-img.jpg" class="img-overlay" data-lightbox="portfolio">
+												  <i class="fa fa-expand"></i>
+												</a>
+											</div>
+											<div class="item">
+											  <div>
+												<img src="img/icons/banner-img.jpg" alt="">
+												
+											  </div>
+												<a href="img/icons/banner-img.jpg" class="img-overlay" data-lightbox="portfolio">
+												  <i class="fa fa-expand"></i>
+												</a>
+											</div>
+											<div class="item">
+											  <div>
+												<img src="img/icons/banner-img.jpg" alt="">
+											  </div>
+											  	<a href="img/icons/banner-img.jpg" class="img-overlay" data-lightbox="portfolio">
+												  <i class="fa fa-expand"></i>
+												</a>
+											</div>
+											<div class="item">
+											  <div>
+												<img src="img/icons/banner-img.jpg" alt="">
+											  </div>
+											  	<a href="img/icons/banner-img.jpg" class="img-overlay" data-lightbox="portfolio">
+												 <i class="fa fa-expand"></i>
+												</a>
+											</div>
+											<div class="item">
+											  <div>
+												<img src="img/icons/banner-img.jpg" alt="">
+											  </div>
+											  	<a href="img/icons/banner-img.jpg" class="img-overlay" data-lightbox="portfolio">
+												  <i class="fa fa-expand"></i>
+												</a>
+											</div>
+											<div class="item">
+											  <div>
+												<img src="img/icons/banner-img.jpg" alt="">
+											  </div>
+											  	<a href="img/icons/banner-img.jpg" class="img-overlay" data-lightbox="portfolio">
+												  <i class="fa fa-expand"></i>
+												</a>
+											</div>
+											<div class="item">
+											  <div>
+												<img src="img/icons/banner-img.jpg" alt="">
+											  </div>
+											  <a href="img/icons/banner-img.jpg" class="img-overlay" data-lightbox="portfolio">
+												  <i class="fa fa-expand"></i>
+												</a>
+											</div>
+											<div class="item">
+											  <div>
+												<img src="img/icons/banner-img.jpg" alt="">
+											  </div>
+											  	<a href="img/icons/banner-img.jpg" class="img-overlay" data-lightbox="portfolio">
+												  <i class="fa fa-expand"></i>
+												</a>
+											</div>
+											<div class="item">
+											  <div>
+												<img src="img/icons/banner-img.jpg" alt="">
+											  </div>
+											  	<a href="img/icons/banner-img.jpg" class="img-overlay" data-lightbox="portfolio">
+												  <i class="fa fa-expand"></i>
+												</a>
+											</div>
+											
+										  </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-5">	
+									<div class="profile-header">
+										<em><img src="img/icons/profile_pic.png" alt="" class="img-fluid" /></em>
+										<h4>Eldad Behrozi</h4>
+									</div>
+									
+									<div class="d-flex align-items-center justify-content-center profile-body mb-3">
+										<div class="d-flex align-items-center justify-content-center">
+											<div class="star-rating mr-2">
+											  <span class="fa fa-star text-warning"></span>
+											  <span class="fa fa-star text-warning"></span>
+											  <span class="fa fa-star text-warning"></span>
+											  <span class="fa fa-star text-warning"></span>
+											  <span class="fa fa-star text-dark"></span>
+											</div>
+											<div class="star-viewsrating text-muted">
+												<span>4.0</span>
+											</div>
+										</div>
+										<div class="view_reviews ml-2">
+											<a href="javascript:void(0)" class="" >See Reviews</a>
+										</div>
+									</div>
+									<div class="profile-footer">
+										<ul class="d-flex align-items-center justify-content-center no-gutters list-call mt-3">
+											<li class="col-md-4 col-4 btn-radius  text-center filter-cell">
+												<a href="javascript:void(0)" class="filter-trigger-js btn-green">
+													<em><img src="img/icons/ic_call.svg" alt="" class="img-fluid" /></em>
+													<span>Call</span>
+												</a>
+												<div class="que-drop filter-target-js">
+													<div class="d-flex flex-column align-items-start justify-content-center ls_div">
+														<div class="section-header mb-3">													
+															<h4 class="mb-0 mt-0 text-left">Request a call navigator</h4>
+														</div>		
+														<div class="col-md-12 px-0 ">
+															<ul class="row text-left align-items-center call_drop">
+																<li class="col-12 px-0"><a href="javascript:void(0)"><em><img src="img/icons/call.png" alt=""/></em>Call the agent</a></li>
+																<li class="col-12  px-0"><a href="javascript:void(0)"><em><img src="img/icons/ic_callrequest.png" alt="" /></em>Request a call</a></li>																			
+															</ul>
+														</div>
+													
+													</div>										
+												</div>
+												</li>
+												<li class="col-md-4 col-4 btn-radius text-center filter-cell">
+												<a href="javascript:void(0)" class="filter-trigger-js btn-lightgreen ">
+													<em><img src="img/icons/ic_message.svg" alt="" class="img-fluid" /></em>
+													<span>Message</span>
+												</a>
+												<div class="que-drop filter-target-js">
+													<div class="d-flex flex-column align-items-start justify-content-center ls_div">
+														<div class="section-header mb-3">													
+															<h4 class="mb-0 mt-0 text-left">Request a message navigator</h4>
+														</div>		
+														<div class="col-md-12 px-0 ">
+															<ul class="row text-left align-items-center call_drop">
+																<li class="col-12 px-0"><a href="javascript:void(0)"><em><img src="img/icons/ic_chat.png" alt=""/></em>Chat within application</a></li>
+																<li class="col-12  px-0"><a href="javascript:void(0)"><em><img src="img/icons/ic_text.png" alt="" /></em>Send a text message</a></li>																			
+															</ul>
+														</div>
+													
+													</div>										
+												</div>
+												</li>
+												<li class="col-md-4 col-4 btn-radius text-center filter-cell" >
+												<a href="javascript:void(0)" class="filter-trigger-js btn-blue ">
+													<em><img src="img/icons/ic_meeting.svg" alt="" class="img-fluid" /></em>
+													<span>Meeting</span>
+												</a>
+												<div class="que-drop filter-target-js">
+													<div class="d-flex flex-column align-items-start justify-content-center ls_div">
+														<div class="section-header mb-3">													
+															<h4 class="mb-0 mt-0 text-left">Request a meeting navigator</h4>
+														</div>		
+														<div class="col-md-12 px-0 ">
+															<ul class="row text-left align-items-center call_drop">
+																<li class="col-12 px-0"><a href="javascript:void(0)"><em><img src="img/icons/ic_phone_icon.png" alt=""/></em>Phone Meeting</a></li>
+																<li class="col-12  px-0"><a href="javascript:void(0)"><em><img src="img/icons/ic_video_icon.png" alt="" /></em>Video Meeting</a></li>																		
+																<li class="col-12  px-0"><a href="javascript:void(0)"><em><img src="img/icons/ic_inperson_icon.png" alt="" /></em>In Person Meeting</a></li>																			
+															</ul>
+														</div>
+													
+													</div>										
+												</div>
+												</li>
+											</ul>
+									</div>
+								</div>
+								<div class="col-md-3 px-0">
+										<div class="text-center agent-gallery">
+											<a href="javascript:void(0)" class="col-md-12 btn-radius btn-red text-center text-dark">
+												<em class="mb-3"><img src="img/icons/ic_gallery.svg" alt="" class="img-fluid" /></em>
+												
+											</a>
+											<span>Agent Gallery</span>
+										</div>
+										<div class="col-md-12 btn-outline text-center mt-5">
+											<div class="form-group text-white">												
+												<a class="btn btn-primary d-flex" href="view-profile.html">
+												<em class="d-flex"><img src="img/icons/ic_agentlogo.svg" alt="" class="img-fluid mr-2" width="20"/></em> 
+												View Profile</a>
+											</div>
+										</div>
+										
+								</div>
+							</div>
+							</div>
+						</div>
+					
+					<div class="card agent_view mb-5">
+						<div class="col-md-12 px-0 no-gutters">					
+							<div class="row align-items-center mx-0">					
+								<div class="col-md-4">					
+									<div class="aligner pt-3">										
+										<em><img src="img/icons/roger_home.png" alt="" class="img-fluid"/></em>										  
+									</div>
+								</div>
+								<div class="col-md-5">	
+									<div class="profile-header">
+										<em><img src="img/icons/profile_pic.png" alt="" class="img-fluid" /></em>
+										<h4>jessica Miller</h4>
+									</div>
+									<div class="col-md-12 btn-outline agentview text-center mt-3">
+											<div class="form-group text-white ">												
+												<a class="btn btn-outline-primary d-flex ">
+												<em class="d-flex"><img src="img/icons/ic_agentlogo_blue.svg" alt="" class="img-fluid mr-2" width="20"/></em>
+												Switch Agent</a>
+											</div>
+										</div>
+									<div class="d-flex align-items-center justify-content-center profile-body mb-3">
+										<div class="d-flex align-items-center justify-content-center">
+											<div class="star-rating mr-2">
+											  <span class="fa fa-star text-warning"></span>
+											  <span class="fa fa-star text-warning"></span>
+											  <span class="fa fa-star text-warning"></span>
+											  <span class="fa fa-star text-warning"></span>
+											  <span class="fa fa-star text-dark"></span>
+											</div>
+											<div class="star-viewsrating text-muted">
+												<span>4.0</span>
+											</div>
+										</div>
+										<div class="view_reviews ml-2">
+											<a href="javascript:void(0)" class="" >See Reviews</a>
+										</div>
+									</div>
+									<div class="profile-footer viewagentdetail" style="display: none">
+										<div class="d-flex align-items-center justify-content-center no-gutters">
+											<a href="javascript:void(0)" class="col-md-4 btn-radius btn-green text-center">
+												<em><img src="img/icons/ic_call.svg" alt="" class="img-fluid" /></em>
+												<span>Call</span>
+											</a>
+											<a href="javascript:void(0)" class="col-md-4 btn-radius btn-lightgreen text-center">
+												<em><img src="img/icons/ic_message.svg" alt="" class="img-fluid" /></em>
+												<span>Message</span>
+											</a>
+											<a href="javascript:void(0)" class="col-md-4 btn-radius btn-blue text-center">
+												<em><img src="img/icons/ic_meeting.svg" alt="" class="img-fluid" /></em>
+												<span>Meeting</span>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 px-0 message-box">
+										<div class="text-center">
+											<a href="javascript:void(0)" class="col-md-12 btn-radius btn-lightgreen text-center text-dark">
+												<em><img src="img/icons/ic_message.svg" alt="" class="img-fluid" /></em>
+												<span class="notification">1</span>											
+											</a>
+											
+										</div>
+									
+										
+								</div>
+								<div class="col-md-3 px-0"  style="display: none">
+										<div class="text-center agent-gallery">
+											<a href="javascript:void(0)" class="col-md-12 btn-radius btn-red text-center text-dark">
+												<em><img src="img/icons/ic_gallery.svg" alt="" class="img-fluid" /></em>
+												<span>Agent Gallery</span>
+											</a>
+											
+										</div>
+										<div class="col-md-12 btn-outline text-center mt-5">
+											<div class="form-group text-white">												
+												<a class="btn btn-primary d-flex" href="view-profile.html">
+												<em class="d-flex"><img src="img/icons/ic_agentlogo.svg" alt="" class="img-fluid mr-2" width="20"/></em> View Profile</a>
+											</div>
+										</div>
+										
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card agent_view">
+						<div class="col-md-12 px-0 no-gutters">					
+							<div class="row align-items-center mx-0">					
+								<div class="col-md-4">					
+									<div class="aligner pt-3">										
+										<em><img src="img/icons/roger_home.png" alt="" class="img-fluid"/></em>										  
+									</div>
+								</div>
+								<div class="col-md-5">	
+									<div class="profile-header">
+										<em><img src="img/icons/profile_pic.png" alt="" class="img-fluid" /></em>
+										<h4>jessica Miller</h4>
+									</div>
+									<div class="col-md-12 btn-outline agentview text-center mt-3">
+											<div class="form-group text-white ">												
+												<a class="btn btn-outline-primary d-flex ">
+												<em class="d-flex"><img src="img/icons/ic_agentlogo_blue.svg" alt="" class="img-fluid mr-2" width="20"/></em>
+												Switch Agent</a>
+											</div>
+										</div>
+									<div class="d-flex align-items-center justify-content-center profile-body mb-3">
+										<div class="d-flex align-items-center justify-content-center">
+											<div class="star-rating mr-2">
+											  <span class="fa fa-star text-warning"></span>
+											  <span class="fa fa-star text-warning"></span>
+											  <span class="fa fa-star text-warning"></span>
+											  <span class="fa fa-star text-warning"></span>
+											  <span class="fa fa-star text-dark"></span>
+											</div>
+											<div class="star-viewsrating text-muted">
+												<span>4.0</span>
+											</div>
+										</div>
+										<div class="view_reviews ml-2">
+											<a href="javascript:void(0)" class="" >See Reviews</a>
+										</div>
+									</div>
+									<div class="profile-footer viewagentdetail" style="display: none">
+										<div class="d-flex align-items-center justify-content-center no-gutters">
+											<a href="javascript:void(0)" class="col-md-4 btn-radius btn-green text-center">
+												<em><img src="img/icons/ic_call.svg" alt="" class="img-fluid" /></em>
+												<span>Call</span>
+											</a>
+											<a href="javascript:void(0)" class="col-md-4 btn-radius btn-lightgreen text-center">
+												<em><img src="img/icons/ic_message.svg" alt="" class="img-fluid" /></em>
+												<span>Message</span>
+											</a>
+											<a href="javascript:void(0)" class="col-md-4 btn-radius btn-blue text-center">
+												<em><img src="img/icons/ic_meeting.svg" alt="" class="img-fluid" /></em>
+												<span>Meeting</span>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 px-0 message-box">
+										<div class="text-center">
+											<a href="chat.html" class="col-md-12 btn-radius btn-lightgreen text-center text-dark">
+												<em><img src="img/icons/ic_message.svg" alt="" class="img-fluid" /></em>
+												<!-- <span class="notification">1</span>											 -->
+											</a>
+											
+										</div>
+									
+										
+								</div>
+								<div class="col-md-3 px-0"  style="display: none">
+										<div class="text-center agent-gallery">
+											<a href="javascript:void(0)" class="col-md-12 btn-radius btn-red text-center text-dark">
+												<em><img src="img/icons/ic_gallery.svg" alt="" class="img-fluid" /></em>
+												<span>Agent Gallery</span>
+											</a>
+											
+										</div>
+										<div class="col-md-12 btn-outline text-center mt-5">
+											<div class="form-group text-white">												
+												<a class="btn btn-primary d-flex">
+												<em class="d-flex"><img src="img/icons/ic_agentlogo.svg" alt="" class="img-fluid mr-2" width="20"/></em> View Profile</a>
+											</div>
+										</div>
+										
+								</div>
+							</div>
+						</div>
+					</div>
+						</div>
+					</div>
+				</div>                 
+
+			</div>
+
+		</div>
+    </section><!-- #services -->
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer" class="">
+    <div class="footer-top">
+		<div class="container">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-sm-12">
+				  <div class="footer-links text-center footer-dropdown">
+					<ul class="top-nav">
+					  <li class="drop-down">
+					  <a href="javascript:void(0)">Agents</a>
+						<ul>
+						  <li><a href="javascript:void(0)">Deep Drop Down 1</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 2</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 3</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 4</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 5</a></li>
+						</ul>
+					  </li>
+					  <li class="drop-down">
+					  <a href="javascript:void(0)">Loan Offers</a>
+						<ul>
+						  <li><a href="javascript:void(0)">Deep Drop Down 1</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 2</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 3</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 4</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 5</a></li>
+						</ul>
+					  </li>
+					  <li class="drop-down">
+					  <a href="javascript:void(0)">Vendors</a>
+						<ul>
+						  <li><a href="javascript:void(0)">Deep Drop Down 1</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 2</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 3</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 4</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 5</a></li>
+						</ul>
+					  </li>
+					  <li class="drop-down">
+					  <a href="javascript:void(0)">Feedback</a>
+						<ul>
+						  <li><a href="javascript:void(0)">Deep Drop Down 1</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 2</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 3</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 4</a></li>
+						  <li><a href="javascript:void(0)">Deep Drop Down 5</a></li>
+						</ul>
+					  </li>
+										
+					</ul>
+				  </div>
+				  <hr>
+				  </div>
+				  
+				<div class="col-sm-12">
+				
+					<div class="footer-links text-center">
+						<ul class="top-nav">
+						  <li><a href="javascript:void(0)">About</a></li>
+						  <li><a href="javascript:void(0)">Career</a></li>
+						  <li><a href="javascript:void(0)">Terms of use</a></li>
+						  <li><a href="javascript:void(0)">Help</a></li>
+						  <li><a href="javascript:void(0)">Privacy policy</a></li>
+						</ul>
+					</div>
+					<hr>
+					<div class="text-center my-4 google_buttons">
+						<div class="row align-items-center justify-content-center">
+							
+								<a href="javascript:void(0)"><img src="img/icons/ic_google.png" alt="" class="img-fluid" width="150px" /></a>
+								<a href="javascript:void(0)"><img src="img/icons/ic_apple.png" alt="" class="img-fluid" width="150px" /></a>
+							
+						</div>
+					</div>
+					<div class="footer-link row align-items-center justify-content-center">
+						<ul class="logo-menu">
+							<a href="index.html" class="logo">
+							  <!-- Logo White Version -->
+							  <h2><img src="img/favicon.svg" alt="" /><span>AgentMeeting</span></h2>
+							  
+							</a>
+						</ul>
+						<div class="social-links text-center">
+						  
+							<p>Follow us on:</p>
+							<a href="javascript:void(0)" class="linkedin"><i class="fa fa-linkedin"></i></a>
+							<a href="javascript:void(0)" class="facebook"><i class="fa fa-facebook"></i></a>
+							<a href="javascript:void(0)" class="instagram"><i class="fa fa-instagram"></i></a>
+							<a href="javascript:void(0)" class="twitter"><i class="fa fa-twitter"></i></a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; <strong></strong> 2022 Agentmeeting
+      </div>      
+    </div>
+	<div class="footer-bottom text-center">
+		<div class="container">
+			<i>
+				<img src="img/icons/footer_bottom.png" alt="" class="img-fluid"/>
+			</i>
+		</div>
+	</div>
+  </footer><!-- #footer -->
+
+  <a href="javascript:void(0)" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <div id="preloader"></div>
+<!-- Start  verify Confirmation Modal -->
+	<div id="verifynumber" class="modal fade">
+		<div class="modal-dialog modal-dialog-centered modal-confirm">
+			<div class="modal-content">
+				<div class="modal-header text-center flex-column border-0">					
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>				
+					<h3 class="modal-title text-left">Enter the code we just sent to <span>9017897812</span></h3>	
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">									
+									<input type="text" id="digitcode" class="form-control" placeholder="6 Digit Code" required>
+									
+								</div><a href="javascript:void(0)"><span>Resend Code</span></a>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer justify-content-center border-0">
+					<button type="button" class="btn btn-primary btn-radius" data-dismiss="modal">Verify</button>
+				</div>
+			</div>
+		</div>
+	</div> 
+	<!-- End verify Confirmation Modal -->
+ <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+ <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
