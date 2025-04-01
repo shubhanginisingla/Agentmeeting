@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="28px" viewBox="0 0 29 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_message</title>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M3.28,0.75 L25.33,0.75 C27.069697,0.75 28.48,2.16030304 28.48,3.9 L28.48,18.1486343 C28.48,19.8883312 27.069697,21.2986343 25.33,21.2986343 L17.8128677,21.2986343 L17.8128677,21.2986343 L9.13430598,28.05 L9.13430598,21.2986343 L3.28,21.2986343 C1.54030304,21.2986343 0.13,19.8883312 0.13,18.1486343 L0.13,3.9 C0.13,2.16030304 1.54030304,0.75 3.28,0.75 Z" id="ic_message" fill="#FFFFFF"></path>
+    </g>
+</svg>

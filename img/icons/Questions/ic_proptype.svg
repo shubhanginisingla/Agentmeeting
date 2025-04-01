@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="313px" height="173px" viewBox="0 0 313 173" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_proptype</title>
+    <defs>
+        <linearGradient x1="41.2728469%" y1="24.0561728%" x2="63.9713912%" y2="95.2756762%" id="linearGradient-1">
+            <stop stop-color="#196DFD" offset="0%"></stop>
+            <stop stop-color="#72A1F3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="47.9645155%" y1="24.0561728%" x2="53.2586285%" y2="95.2756762%" id="linearGradient-2">
+            <stop stop-color="#196DFD" offset="0%"></stop>
+            <stop stop-color="#72A1F3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="44.2262158%" y1="24.0561728%" x2="59.2433118%" y2="95.2756762%" id="linearGradient-3">
+            <stop stop-color="#196DFD" offset="0%"></stop>
+            <stop stop-color="#72A1F3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="11.2372767%" y1="0%" x2="100%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#2DFF9F" offset="0%"></stop>
+            <stop stop-color="#09D976" offset="0%"></stop>
+            <stop stop-color="#51D980" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Property-type-sell-Copy" transform="translate(-811.000000, -137.000000)" fill-rule="nonzero">
+            <g id="Group-11" transform="translate(240.000000, 120.000000)">
+                <g id="Group-10" transform="translate(307.000000, 0.000000)">
+                    <g id="Group" transform="translate(264.000000, 17.000000)">
+                        <path d="M302,173 L301.208333,173 C301.208333,152.450405 284.549595,135.791666 264,135.791666 C243.450405,135.791666 226.791667,152.450405 226.791667,173 L226,173 C226,152.013179 243.01318,135 264,135 C284.98682,135 302,152.013179 302,173 L302,173 Z" id="Path" fill="#3F3D56"></path>
+                        <circle id="Oval" fill="#FF6584" cx="82.5" cy="34.5" r="15.5"></circle>
+                        <polygon id="Path" fill="#2C4EEA" points="42 106.91097 68.8743132 75 121.710905 75 154 106.357779 153.347755 106.77593 153.580615 106.77593 153.580615 172 42.0368299 172 42.0368299 106.77593"></polygon>
+                        <rect id="Rectangle" fill="#3F3D56" transform="translate(61.000000, 82.500000) rotate(-180.000000) translate(-61.000000, -82.500000) " x="58" y="72" width="6" height="21"></rect>
+                        <polygon id="Path" fill="url(#linearGradient-1)" points="68.1762691 75 101 113.558364 101 172 42 172 42 106.223181"></polygon>
+                        <rect id="Rectangle" fill="#3F3D56" x="81" y="121" width="12" height="12"></rect>
+                        <rect id="Rectangle" fill="#3F3D56" x="81" y="138" width="12" height="12"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="81" y="121" width="12" height="12"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="81" y="138" width="12" height="12"></rect>
+                        <rect id="Rectangle" fill="#3F3D56" x="65" y="121" width="12" height="12"></rect>
+                        <rect id="Rectangle" fill="#3F3D56" x="65" y="138" width="12" height="12"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="65" y="121" width="12" height="12"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="65" y="138" width="12" height="12"></rect>
+                        <rect id="Rectangle" fill="#3F3D56" x="48" y="121" width="12" height="12"></rect>
+                        <rect id="Rectangle" fill="#3F3D56" x="48" y="138" width="12" height="12"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="48" y="121" width="12" height="12"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="48" y="138" width="12" height="12"></rect>
+                        <rect id="Rectangle" fill="#1469FF" x="172" y="0" width="6" height="14"></rect>
+                        <rect id="Rectangle" fill="url(#linearGradient-2)" x="131" y="12" width="47" height="160"></rect>
+                        <rect id="Rectangle" fill="#2C4EEA" x="178" y="12" width="19" height="160"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="139" y="26" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="151" y="26" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="162" y="26" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="139" y="42" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="151" y="42" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="162" y="42" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="140" y="59" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="151" y="59" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="162" y="59" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="140" y="75" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="151" y="75" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="163" y="75" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="140" y="91" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="151" y="91" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="163" y="91" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="140" y="107" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="152" y="107" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="163" y="107" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="140" y="123" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="152" y="123" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="163" y="123" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="141" y="140" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="152" y="140" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="152" y="159" width="7" height="13"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="163" y="140" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#3F3D56" x="178" y="0" width="3" height="13"></rect>
+                        <polygon id="Rectangle" fill="url(#linearGradient-3)" points="213.596991 77 237 102.874717 237 172 190 172 190 103.041647"></polygon>
+                        <polygon id="Rectangle" fill="#2C4EEA" points="213.5 77 237 77 256 102.874717 256 172 237 172 237 102.874717"></polygon>
+                        <rect id="Rectangle" fill="#FFFFFF" x="199" y="107" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="211" y="107" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="222" y="107" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="200" y="123" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="211" y="123" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="222" y="123" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="200" y="140" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="211" y="140" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="211" y="159" width="7" height="13"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="223" y="140" width="7" height="7"></rect>
+                        <rect id="Rectangle" fill="#3F3D56" x="0" y="172" width="313" height="1"></rect>
+                        <circle id="Oval" fill="url(#linearGradient-4)" cx="13.5" cy="143.5" r="10.5"></circle>
+                        <path d="M21.3598992,137 C23.367021,141.60024 21.6759182,146.947822 17.365768,149.630187 C13.0556178,152.312551 7.39659309,151.539224 4,147.803702 C5.62219871,151.5222 9.33168496,153.951969 13.4587086,153.999296 C17.5857323,154.046624 21.3522434,151.702589 23.0628234,148.02231 C24.7734033,144.342032 24.1055637,140.019337 21.3599192,137 L21.3598992,137 Z" id="Path" fill="#000000" opacity="0.2"></path>
+                        <polygon id="Path" fill="#3F3D56" points="13.5 143 13.5264901 143 14 172 13 172"></polygon>
+                        <g id="Group-9" transform="translate(267.961538, 144.000000)">
+                            <circle id="Oval" fill="url(#linearGradient-4)" cx="7.53846154" cy="7.5" r="7.5"></circle>
+                            <path d="M13.190391,3 C14.5953762,6.24722827 13.4116043,10.0219919 10.3944992,11.9154258 C7.37739402,13.8088597 3.4160767,13.2629813 1.03846154,10.6261429 C2.17400063,13.250965 4.77064101,14.9660956 7.65955757,14.9995034 C10.5484741,15.0329112 13.185032,13.3782979 14.3824379,10.7804543 C15.5798438,8.18261063 15.1123562,5.13129683 13.190405,3 L13.190391,3 Z" id="Path" fill="#000000" opacity="0.2"></path>
+                            <polygon id="Path" fill="#3F3D56" points="7.53846154 7 7.5649516 7 8.03846154 28 7.03846154 28"></polygon>
+                        </g>
+                        <polygon id="Rectangle" fill="#3F3D56" transform="translate(14.458049, 159.118326) rotate(62.234130) translate(-14.458049, -159.118326) " points="14.2042184 158.158169 14.7123876 158.158034 14.711879 160.078483 14.2037098 160.078618"></polygon>
+                        <path d="M40.3917603,70.723064 L44,68.0376084 C41.1969195,67.7498337 40.0451836,69.1723889 39.5738272,70.2983575 C37.3839603,69.4521759 35,70.5611333 35,70.5611333 L42.2194191,73 C41.8552129,72.0947698 41.2212152,71.3049221 40.3917603,70.723064 Z" id="Path" fill="#3F3D56"></path>
+                        <path d="M275.39176,28.723064 L279,26.0376084 C276.196919,25.7498337 275.045184,27.1723889 274.573827,28.2983575 C272.38396,27.4521759 270,28.5611333 270,28.5611333 L277.219419,31 C276.855213,30.0947698 276.221215,29.3049221 275.39176,28.723064 L275.39176,28.723064 Z" id="Path" fill="#3F3D56"></path>
+                        <path d="M107.39176,51.723064 L111,49.0376084 C108.196919,48.7498337 107.045184,50.1723889 106.573827,51.2983575 C104.38396,50.4521759 102,51.5611333 102,51.5611333 L109.219419,54 C108.855213,53.0947698 108.221215,52.3049221 107.39176,51.723064 L107.39176,51.723064 Z" id="Path" fill="#3F3D56"></path>
+                        <path d="M216.39176,53.723064 L220,51.0376084 C217.196919,50.7498337 216.045184,52.1723889 215.573827,53.2983575 C213.38396,52.4521759 211,53.5611333 211,53.5611333 L218.219419,56 C217.855213,55.0947698 217.221215,54.3049221 216.39176,53.723064 L216.39176,53.723064 Z" id="Path" fill="#3F3D56"></path>
+                        <path d="M47.5354941,166.800102 C46.5768588,166.799975 45.6351369,167.05794 44.8052879,167.547987 C43.0834237,165.95806 40.6055329,165.553927 38.4842915,166.51706 C36.3630502,167.480193 34.9971764,169.629558 35,172 L53,172 C52.7964366,169.071371 50.4108737,166.801325 47.5354941,166.800102 L47.5354941,166.800102 Z" id="Path" fill="#3F3D56"></path>
+                        <path d="M141.535494,166.800102 C140.576859,166.799975 139.635137,167.05794 138.805288,167.547987 C137.083424,165.95806 134.605533,165.553927 132.484292,166.51706 C130.36305,167.480193 128.997176,169.629558 129,172 L147,172 C146.796437,169.071371 144.410874,166.801325 141.535494,166.800102 L141.535494,166.800102 Z" id="Path" fill="#3F3D56"></path>
+                        <path d="M202.535494,166.800102 C201.576859,166.799975 200.635137,167.05794 199.805288,167.547987 C198.083424,165.95806 195.605533,165.553927 193.484292,166.51706 C191.36305,167.480193 189.997176,169.629558 190,172 L208,172 C207.796437,169.071371 205.410874,166.801325 202.535494,166.800102 L202.535494,166.800102 Z" id="Path" fill="#3F3D56"></path>
+                        <polygon id="Path" fill="#3F3D56" points="32 144 26 144 26 150.408056 28.781375 150.408056 28.781375 172 29.531375 172 29.531375 150.408056 32 150.408056"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
